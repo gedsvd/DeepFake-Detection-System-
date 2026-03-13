@@ -18,7 +18,7 @@ menu = st.sidebar.selectbox("Navigate", ["Home", "Register", "Login"])
 # Home page
 if menu == "Home":
     st.title("DeepFake Face Classification")
-    st.image("image2.jpg", caption="Basic Flow")
+    st.image("image2.jpg")
 
 # Register page
 elif menu == "Register":
@@ -77,6 +77,7 @@ if menu == "Login":
 
             else:
                 st.error("Invalid credentials.")
+
 
 
 
